@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LTCS - Ofertas Especiales</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="../js/menu.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-contenido">
+            <button class="despegable" onclick="toggleMenu()">☰ Menú</button>
+        </div>
+        <nav id="menu" class="menu">
+            <button class="cerrar-menu" onclick="toggleMenu()">✖</button>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="vistas/somos.html">¿Quiénes Somos?</a></li>
+                <li><a href="vistas/ofertas.html">Ofertas</a></li>
+                <li><a href="vistas/pedidos.html">Pedidos</a></li>
+                <li><a href="vistas/contactos.html">contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="banner">
+        <img src="img/banner.png">
+    </div>
+
+    <main>
+        <section class="productos">
+            <h2>Nuestros Productos</h2>
+            <div class="grid">
+                <div class="producto">
+                    <img src="../img/laptop1.png" alt="Laptop en oferta">
+                    <h3>Laptop Asus TUF</h3>
+                    <p>Ryzen i7 | 16GB RAM | 1TB SSD</p>
+                    <span class="precio">S/ 3,999</span>
+                    <button><i class="fa-solid fa-cart-shopping"></i> Comprar</button>
+                </div>
+
+                <div class="producto">
+                    <img src="../img/monitor.png" alt="Monitor en oferta">
+                    <h3>Monitor Gamer 27''</h3>
+                    <p>144Hz | Full HD | IPS</p>
+                    <span class="precio">S/ 899</span>
+                    <button><i class="fa-solid fa-cart-shopping"></i> Comprar</button>
+                </div>
+
+                <div class="producto">
+                    <img src="../img/mouse.png" alt="Mouse en oferta">
+                    <h3>Mouse Inalámbrico</h3>
+                    <p>RGB | Ergonómico | 6 Botones</p>
+                    <span class="precio">S/ 120 </span>
+                    <button><i class="fa-solid fa-cart-shopping"></i> Comprar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="redes">
+            <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/tu-numero" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+        <p>&copy; 2025 LTCS - Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

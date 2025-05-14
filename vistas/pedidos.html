@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LTCS - Pedidos</title>
+    <link rel="stylesheet" href="../css/pedido.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="../js/menu.js" defer></script>
+    <script src="../js/pedidos.js" defer></script> <!-- Nuevo script para manejar eliminación -->
+</head>
+<body>
+    <header>
+        <div class="header-contenido">
+            <button class="despegable" onclick="toggleMenu()">☰ Menú</button>
+        </div>
+        <nav id="menu" class="menu">
+            <button class="cerrar-menu" onclick="toggleMenu()">✖</button>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="somos.html">¿Quiénes Somos?</a></li>
+                <li><a href="ofertas.html">Ofertas</a></li>
+                <li><a href="pedidos.html">Pedidos</a></li>
+                <li><a href="contactos.html">contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="banner">
+        <img src="../img/online-delivery-phone-concept-fast-600nw-1609947532.jpg" alt="Banner Pedidos LTCS">
+    </div>
+
+    <main>
+        <section class="detalle-pedido">
+    <h2>Mi Carrito de Compras</h2>
+    <div class="carrito">
+        
+        <!-- Producto 1 -->
+        <div class="producto-card">
+            <div class="producto-info">
+                <img src="../img/laptop1.png" alt="Laptop Ultra Rápida">
+                <div class="producto-detalle">
+                    <h3>Laptop Ultra Rápida</h3>
+                    <p>Intel i7 | 16GB RAM | 1TB SSD</p>
+                </div>
+            </div>
+            <span class="precio">S/ 3,999</span>
+            <button class="eliminar"><i class="fa-solid fa-trash"></i></button>
+        </div>
+
+        <!-- Producto 2 -->
+        <div class="producto-card">
+            <div class="producto-info">
+                <img src="../img/monitor.png" alt="Monitor Gamer 27''">
+                <div class="producto-detalle">
+                    <h3>Monitor Gamer 27''</h3>
+                    <p>144Hz | Full HD | IPS</p>
+                </div>
+            </div>
+            <span class="precio">S/ 1,798</span>
+            <button class="eliminar"><i class="fa-solid fa-trash"></i></button>
+        </div>
+
+        <!-- Producto 3 -->
+        <div class="producto-card">
+            <div class="producto-info">
+                <img src="../img/mouse.png" alt="Mouse Inalámbrico">
+                <div class="producto-detalle">
+                    <h3>Mouse Inalámbrico</h3>
+                    <p>RGB | Ergonómico | 6 Botones</p>
+                </div>
+            </div>
+            <span class="precio">S/ 120</span>
+            <button class="eliminar"><i class="fa-solid fa-trash"></i></button>
+        </div>
+        
+    </div>
+
+    <!-- Resumen de Compra -->
+    <div class="resumen-compra">
+        <p>Total: S/ 5,917</p>
+        <button class="confirmar">Confirmar Pedido</button>
+    </div>
+</section>
+
+
+    </main>
+
+    <footer>
+        <div class="redes">
+            <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/tu-numero" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+        <p>&copy; 2025 LTCS - Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
